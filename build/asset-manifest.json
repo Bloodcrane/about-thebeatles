@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/about-thebeatles/static/css/main.a0eb2dee.css",
-    "main.js": "/about-thebeatles/static/js/main.c519b473.js",
+    "main.js": "/about-thebeatles/static/js/main.f34adfde.js",
     "static/js/248.a1cbf368.chunk.js": "/about-thebeatles/static/js/248.a1cbf368.chunk.js",
-    "static/js/281.62912578.chunk.js": "/about-thebeatles/static/js/281.62912578.chunk.js",
+    "static/js/470.011f3a8c.chunk.js": "/about-thebeatles/static/js/470.011f3a8c.chunk.js",
     "static/js/661.c4e80cfd.chunk.js": "/about-thebeatles/static/js/661.c4e80cfd.chunk.js",
-    "static/js/953.b7b83bde.chunk.js": "/about-thebeatles/static/js/953.b7b83bde.chunk.js",
     "static/media/NeoEuler.otf": "/about-thebeatles/static/media/NeoEuler.914c30d7ab0e8a723210.otf",
     "static/media/beatlevinyl.png": "/about-thebeatles/static/media/beatlevinyl.d7d655c47e2ccc034d9e.png",
     "static/media/SgtPeppers.ttf": "/about-thebeatles/static/media/SgtPeppers.0e8d39930a0f06218eef.ttf",
@@ -16,14 +15,13 @@
     "static/media/ahdn.ttf": "/about-thebeatles/static/media/ahdn.137bdc8e58304d21dbe6.ttf",
     "index.html": "/about-thebeatles/index.html",
     "main.a0eb2dee.css.map": "/about-thebeatles/static/css/main.a0eb2dee.css.map",
-    "main.c519b473.js.map": "/about-thebeatles/static/js/main.c519b473.js.map",
+    "main.f34adfde.js.map": "/about-thebeatles/static/js/main.f34adfde.js.map",
     "248.a1cbf368.chunk.js.map": "/about-thebeatles/static/js/248.a1cbf368.chunk.js.map",
-    "281.62912578.chunk.js.map": "/about-thebeatles/static/js/281.62912578.chunk.js.map",
-    "661.c4e80cfd.chunk.js.map": "/about-thebeatles/static/js/661.c4e80cfd.chunk.js.map",
-    "953.b7b83bde.chunk.js.map": "/about-thebeatles/static/js/953.b7b83bde.chunk.js.map"
+    "470.011f3a8c.chunk.js.map": "/about-thebeatles/static/js/470.011f3a8c.chunk.js.map",
+    "661.c4e80cfd.chunk.js.map": "/about-thebeatles/static/js/661.c4e80cfd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0eb2dee.css",
-    "static/js/main.c519b473.js"
+    "static/js/main.f34adfde.js"
   ]
 }
