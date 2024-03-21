@@ -1,0 +1,264 @@
+@font-face{
+  font-family: mainFont;
+  src: url(Fonts/bootle.TTF);
+}
+
+@font-face {
+  font-family: lennonHandwriting;
+  src: url(Fonts/Johnlennon.ttf);
+}
+
+@font-face {
+  font-family: neoEuler;
+  src: url(Fonts/NeoEuler.otf);
+}
+
+@font-face {
+  font-family: sgtPeppers;
+  src: url(Fonts/SgtPeppers.ttf);
+}
+
+@font-face {
+  font-family: ahdn;
+  src: url(Fonts/ahdn.ttf);
+}
+
+body {
+  background-image: url('./Images/Style/noise-dark.png');
+  background-color: #181818;
+  color: #fff;
+  font-family: mainFont;
+  text-align: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0;
+}
+
+.pagination-container {
+  border-radius: 15px;
+  padding: 20px 25px 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.548);
+  background-image: url('./Images/Style/noise-dark.png');
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.webComponent {
+  text-align: center;
+  margin: 50px auto;
+  padding-bottom: 15px;
+  width: 500px;
+  max-width: 500px;
+  border-radius: 15px;
+  background-image: url('./Images/Style/noise-dark.png');
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.253);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.webComponent-description {
+  color: #dbdbdb;
+  font-size: 25px;
+  font-family: NeoEuler;
+  padding: 0 10px 10px;
+}
+
+.webComponent-title {
+  font-family: ahdn;
+  letter-spacing: 3px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.699);
+}
+
+
+.webComponent-image {
+  border-radius: 15px;
+  margin-top: 15px;
+  float: center;
+  margin-right: 10px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.589);
+  width: 300px;
+  height: auto;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .webComponent {
+    width: calc(100% - 20px);
+    margin: 25px auto;
+  }
+}
+
+.vinyl-container {
+  position: fixed;
+  bottom: -300px;
+  left: 50%;
+  transform: translateX(-50%) rotate(0deg);
+  width: 500px;
+  height: 500px;
+  background: url('./Images/beatlevinyl.png') no-repeat center center;
+  background-size: cover;
+  animation: spin 5s linear infinite;
+  perspective: 1000px;
+  backface-visibility: hidden;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+
+.banner{
+  margin: 80px auto;
+  background-image: url('./Images/Style/noise-dark.png');
+  box-shadow: 5px 15px 8px rgba(0, 0, 0, 0.425);
+  border: 2px solid;
+  border-color: #303030;
+  background-color: #202020;
+  width: 430px;
+  height: 350px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.banner img {
+  border-radius: 15px;
+  width: 430px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.detail-container{
+  background-color: #0f0f0f49;
+  border: 2px solid;
+  margin: 15px auto 15px;
+  max-width: 790px;
+  border-color: #dadada49;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.detail-description{
+  font-family: neoEuler;
+  text-shadow: 5px 5px 5px black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  max-width: 790px;
+  margin: 0 auto;
+}
+
+.detail-title{
+  font-family: sgtPeppers;
+  font-size: 30px;
+  color: #ffd767;
+  text-shadow: 3px 3px 3px black;
+}
+
+.loadingTxt{
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  font-family: lennonHandwriting;
+  margin-top: 200px;
+}
+
+
+.layoutDiv {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  font-family: mainFont;
+  padding: 23px 10px;
+  color: white;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.548);
+  background-image: url('./Images/Style/noise-dark.png');
+  z-index: 100;
+}
+
+
+.headerButtons {
+  display: center;
+  flex-direction: row;
+  float: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.layoutButton, .shareButton {
+  padding: 10px 20px;
+  margin-top: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-family: mainFont;
+  text-shadow: 0px 2px 5px black;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.589);
+  text-decoration: none;
+  color: #fff;
+  background-image: url('./Images/Style/noise-dark.png'), linear-gradient(to top, #111111, #202020);
+  border: 2px solid;
+  border-color: #555555;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s, transform 0.3s, box-shadow 0.3s, color 0.3s, background-image 0.3s;
+  -webkit-transition: background-color 0.3s, border-color 0.3s, transform 0.3s, box-shadow 0.3s, color 0.3s, background-image 0.3s;
+  -moz-transition: background-color 0.3s, border-color 0.3s, transform 0.3s, box-shadow 0.3s, color 0.3s, background-image 0.3s;
+  -ms-transition: background-color 0.3s, border-color 0.3s, transform 0.3s, box-shadow 0.3s, color 0.3s, background-image 0.3s;
+  -o-transition: background-color 0.3s, border-color 0.3s, transform 0.3s, box-shadow 0.3s, color 0.3s, background-image 0.3s;
+}
+
+
+.layoutButton:hover, .shareButton:hover {
+  border-color: #ffffff; 
+  color: #0f0f0f;
+  box-shadow: 0px 5px 5px rgba(241, 241, 241, 0.658);
+  background-image: url('./Images/Style/noise-light.png'), linear-gradient(to top, #dadada, #f0f0f0);
+}
+
+.layoutButton:active, .shareButton:active {
+  background-image: url('./Images/Style/noise-light.png'), linear-gradient(to top, #3a573e, #4d795a);
+  transform: translateY(2px); 
+  color: #ffffffda;
+  border-color: #9bc29ba6;
+  box-shadow: 0px 5px 5px #9bc29ba6;
+}
+
+.headerButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.headerButtons button {
+  margin: 0 10px;
+}
+
+h1{
+  font-family: lennonHandwriting;
+}

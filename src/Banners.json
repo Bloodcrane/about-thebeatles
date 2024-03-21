@@ -1,0 +1,17 @@
+[
+    {
+      "name": "facts",
+      "title": "Facts About The Beatles",
+      "imageUrl": "https://i.pinimg.com/564x/3f/1a/cc/3f1accb0943c836b0128ace874556b70.jpg"
+    },
+    {
+      "name": "about",
+      "title": "About The Beatles",
+      "imageUrl": "https://i.pinimg.com/564x/86/ba/f1/86baf1645d531d547b1f7764e119cfd4.jpg"
+    },
+    {
+        "name": "home",
+        "title": "Home Page",
+        "imageUrl": "https://i.pinimg.com/564x/1b/3c/8c/1b3c8cd0d36288c6a0f766bd15000ec2.jpg"
+    }
+]
