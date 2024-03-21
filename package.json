@@ -1,7 +1,8 @@
 {
   "name": "about-thebeatles", 
   "version": "0.1.0",
-  "homepage": "/",
+  "base": "https://bloodcrane.github.io/about-thebeatles/",
+  "homepage": "https://bloodcrane.github.io/about-thebeatles/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
