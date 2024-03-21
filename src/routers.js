@@ -1,5 +1,5 @@
 import HomePage from "./Pages/HomePage"
-import FactsPage from "./Pages/FactsPage"
+import FactsPage from "./Pages/FactsPage" 
 import AboutPage from "./Pages/AboutPage"
 
 const router = [
