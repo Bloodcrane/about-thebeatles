@@ -1,5 +1,5 @@
-import HeaderLayout from "../Layouts/Header"
-import Banner from "../Components/Banner"
+import HeaderLayout from "../Layouts/Header.jsx"
+import Banner from "../Components/Banner.jsx"
 import React from 'react';
  
 const HomePage = () => {

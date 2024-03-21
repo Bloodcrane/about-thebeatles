@@ -1,6 +1,6 @@
-import HeaderLayout from "../Layouts/Header"
-import Banner from "../Components/Banner"
-import Detail from "../Components/Detail"
+import HeaderLayout from "../Layouts/Header.jsx"
+import Banner from "../Components/Banner.jsx"
+import Detail from "../Components/Detail.jsx"
 import React from 'react';
 
 const AboutPage = () => {

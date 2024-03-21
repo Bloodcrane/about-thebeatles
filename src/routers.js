@@ -1,7 +1,7 @@
-import HomePage from "./Pages/HomePage"
-import FactsPage from "./Pages/FactsPage"
-import AboutPage from "./Pages/AboutPage"
-import SingleFactsPage from "./Pages/SingleFactsPage"
+import HomePage from "./Pages/HomePage.jsx"
+import FactsPage from "./Pages/FactsPage.jsx"
+import AboutPage from "./Pages/AboutPage.jsx"
+import SingleFactsPage from "./Pages/SingleFactsPage.jsx"
 
 const router = [
     {
@@ -22,6 +22,16 @@ const router = [
                 path: '/fact/:page/:id'
             }
         ]
+    },
+    {
+      element: <FactsPage />,
+      path: '/fact',
+      routes: [
+          {
+              element: <SingleFactsPage />,
+              path: '/fact/:page/:id'
+          }
+      ]
     },
 ]
 

@@ -1,12 +1,12 @@
 import React, { Suspense, lazy } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import LoaderLayout from './Layouts/Loader';
+import LoaderLayout from './Layouts/Loader.jsx';
 import './App.css';
 
-const AboutPage = lazy(() => import('./Pages/AboutPage'));
-const FactsPage = lazy(() => import('./Pages/FactsPage'));
-const HomePage = lazy(() => import('./Pages/HomePage'));
-const SingleFactsPage= lazy(() => import('./Pages/SingleFactsPage'));
+const AboutPage = lazy(() => import('./Pages/AboutPage.jsx'));
+const FactsPage = lazy(() => import('./Pages/FactsPage.jsx'));
+const HomePage = lazy(() => import('./Pages/HomePage.jsx'));
+const SingleFactsPage= lazy(() => import('./Pages/SingleFactsPage.jsx'));
 
 const App = () => (
   <HashRouter basename={process.env.PUBLIC_URL}>

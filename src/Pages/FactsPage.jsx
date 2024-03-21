@@ -1,6 +1,6 @@
 import React from 'react';
-import HeaderLayout from "../Layouts/Header";
-import FactList from '../Layouts/FactList';
+import HeaderLayout from "../Layouts/Header.jsx";
+import FactList from '../Layouts/FactList.jsx';
 import Banner from '../Components/Banner.jsx'
 
 const FactsPage = () => {
