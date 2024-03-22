@@ -20,17 +20,14 @@ const SongList = () => {
   const [playingSong, setPlayingSong] = useState(null);
 
   const playSong = (songId) => {
-    // Stop playback of the previous song if there is one
     if (playingSong) {
-      setPlayingSong(null); // Reset the playing song
+      setPlayingSong(null);
     }
 
-    // Set the new song to play
     setPlayingSong(songId);
   };
 
   const stopSong = () => {
-    // Stop playback of the current song
     setPlayingSong(null);
   };
 
@@ -45,12 +42,12 @@ const SongList = () => {
               </div>
               <img src={song.songCover} alt={song.songTitle} className="webComponent-image" />
               <h2>{song.songTitle}</h2>
-              <p>{playingSong === song.songId ? 'Playing' : 'Stopped'}</p> {/* Display song status */}
+              <p>{playingSong === song.songId ? 'Playing' : 'Stopped'}</p>
               <button className="playButton" onClick={() => playSong(song.songId)}>Play</button>
               <YoutubePlayer
                 embedId={song.songId}
                 isPlaying={playingSong === song.songId}
-                isAutoplay={false} // Disable autoplay here
+                isAutoplay={false}
                 onStop={stopSong}
               />
             </div>
