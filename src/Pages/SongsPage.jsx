@@ -12,8 +12,6 @@ const AlbumsPage = () => {
                 <HeaderLayout showMain={true} showBooks={true} showMovies={true} showArticles={true} />
             </header>
 
-            {/* <div className="vinyl-container"></div> */}
-
             <Banner name={"songs"} />
             <Song/>
         </main>

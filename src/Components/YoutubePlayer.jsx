@@ -6,7 +6,6 @@ const YoutubePlayer = ({ embedId, isAutoplay, isPlaying, onStop }) => {
   const lowestQuality = 'tiny';
 
   useEffect(() => {
-    // Update autoplay state based on isPlaying prop
     setAutoPlay(isPlaying ? 1 : 0);
   }, [isPlaying]);
 
@@ -14,7 +13,7 @@ const YoutubePlayer = ({ embedId, isAutoplay, isPlaying, onStop }) => {
 
   const handleStop = () => {
     setAutoPlay(0);
-    onStop(); // Notify parent component to stop other songs
+    onStop();
   };
 
   return (
