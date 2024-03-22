@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/about-thebeatles/static/css/main.a0eb2dee.css",
-    "main.js": "/about-thebeatles/static/js/main.e07ad3a0.js",
+    "main.js": "/about-thebeatles/static/js/main.f8c2d10f.js",
     "static/js/248.a1cbf368.chunk.js": "/about-thebeatles/static/js/248.a1cbf368.chunk.js",
     "static/js/470.011f3a8c.chunk.js": "/about-thebeatles/static/js/470.011f3a8c.chunk.js",
     "static/js/661.c4e80cfd.chunk.js": "/about-thebeatles/static/js/661.c4e80cfd.chunk.js",
@@ -15,13 +15,13 @@
     "static/media/ahdn.ttf": "/about-thebeatles/static/media/ahdn.137bdc8e58304d21dbe6.ttf",
     "index.html": "/about-thebeatles/index.html",
     "main.a0eb2dee.css.map": "/about-thebeatles/static/css/main.a0eb2dee.css.map",
-    "main.e07ad3a0.js.map": "/about-thebeatles/static/js/main.e07ad3a0.js.map",
+    "main.f8c2d10f.js.map": "/about-thebeatles/static/js/main.f8c2d10f.js.map",
     "248.a1cbf368.chunk.js.map": "/about-thebeatles/static/js/248.a1cbf368.chunk.js.map",
     "470.011f3a8c.chunk.js.map": "/about-thebeatles/static/js/470.011f3a8c.chunk.js.map",
     "661.c4e80cfd.chunk.js.map": "/about-thebeatles/static/js/661.c4e80cfd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0eb2dee.css",
-    "static/js/main.e07ad3a0.js"
+    "static/js/main.f8c2d10f.js"
   ]
 }
