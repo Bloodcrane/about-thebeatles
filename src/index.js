@@ -1,13 +1,10 @@
 import React from 'react';
 import { createRoot, hydrateRoot } from 'react-dom/client';
-import { HashRouter as Router } from 'react-router-dom'
 import App from './App'; 
 
 const StrictApp = () => (
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
-      <App />
-    </Router>
+    <App />
   </React.StrictMode>
 );
 
