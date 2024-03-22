@@ -10059,3 +10059,8 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+youtube-react@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/youtube-react/-/youtube-react-0.0.1.tgz#6e54e7b2574196ebd48632ffa7661ab9b440c64c"
+  integrity sha512-t5DnfP83IisxdmIGYrDPJMnVi8e3d/G2AaMBtZ1yZttEXVr7lJoDxPM4v+22X6K1G6Fv1+aotKynfOrAhLWu7w==

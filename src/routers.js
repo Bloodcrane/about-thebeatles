@@ -1,6 +1,7 @@
 import HomePage from "./Pages/HomePage"
 import FactsPage from "./Pages/FactsPage" 
 import AboutPage from "./Pages/AboutPage"
+import SongsPage from "./Pages/SongsPage"
 
 const router = [
     {
@@ -19,6 +20,14 @@ const router = [
     {
         element: <FactsPage/>,
         path: '/fact'
+    },
+    {
+        element: <SongsPage/>,
+        path: '/songs'
+    },
+    {
+        element: <SongsPage/>,
+        path: '/songs/:page/:id'
     }
 ]
 

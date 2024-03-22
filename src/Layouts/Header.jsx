@@ -3,7 +3,7 @@ import React from "react";
 
 // const colors = ['#383431', '#523553', '#34405f', '#375239', '#6e5d39'];
 
-const HeaderLayout = ({ showMain = true, showAbout = true, showFacts = true }) => {
+const HeaderLayout = ({ showMain = true, showAbout = true, showFacts = true, showAlbums = true }) => {
     // const randomColor = colors[Math.floor(Math.random() * colors.length)];
 
     // const Style = {
@@ -15,6 +15,7 @@ const HeaderLayout = ({ showMain = true, showAbout = true, showFacts = true }) =
             {showMain && <Link className="layoutButton" to={'/'}>Home</Link>}
             {showAbout && <Link className="layoutButton" to={'/about'}>About</Link>}
             {showFacts && <Link className="layoutButton" to={'/facts'}>Facts</Link>}
+            {showAlbums && <Link className="layoutButton" to={'/songs'}>Songs</Link>}
 
             <Outlet />
         </div>

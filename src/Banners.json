@@ -13,5 +13,10 @@
         "name": "home",
         "title": "Home Page",
         "imageUrl": "https://i.pinimg.com/564x/1b/3c/8c/1b3c8cd0d36288c6a0f766bd15000ec2.jpg"
-    }
+    },
+    {
+      "name": "songs",
+      "title": "One of the greatest songs from the band.",
+      "imageUrl": "https://i.pinimg.com/564x/55/a4/b4/55a4b4942d81bfe8ecb12b0cf0681ffa.jpg"
+  }
 ]

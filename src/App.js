@@ -3,6 +3,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import LoaderLayout from './Layouts/Loader';
 import './App.css';
+import SongsPage from './Pages/SongsPage.jsx';
 
 const AboutPage = lazy(() => import('./Pages/AboutPage.jsx'));
 const FactsPage = lazy(() => import('./Pages/FactsPage.jsx'));
@@ -17,6 +18,9 @@ const App = () => (
           <Route path="/facts" element={<FactsPage />} />
           <Route path="/facts?page/:id" element={<FactsPage />} />
           <Route path="/facts/:page/:id" element={<FactsPage />} />
+          <Route path="/songs" element={<SongsPage />} />
+          <Route path="/songs?page/:id" element={<SongsPage />} />
+          <Route path="/songs/:page/:id" element={<SongsPage />} />
       </Routes>
     </Suspense>
   </Router>
