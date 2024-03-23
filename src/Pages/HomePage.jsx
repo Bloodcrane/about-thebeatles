@@ -8,7 +8,7 @@ const HomePage = () => {
     <div>
         <main>
             <header>
-                <HeaderLayout showMain={true} showBooks={true} showMovies={true} showArticles={true} />
+            <HeaderLayout showMain={true} showAbout={true} showFacts={true} showAlbums={true} />
             </header>
 
             <div className="vinyl-container"></div>

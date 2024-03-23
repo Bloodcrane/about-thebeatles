@@ -9,7 +9,7 @@ const AboutPage = () => {
     <div>
         <main>
             <header>
-                <HeaderLayout showMain={true} showBooks={true} showMovies={true} showArticles={true} />
+                <HeaderLayout showMain={true} showAbout={true} showFacts={true} showAlbums={true} />
             </header>
             <Banner name={"about"} />
             <Detail id="Introduction" />

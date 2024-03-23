@@ -8,7 +8,7 @@ const FactsPage = () => {
     return (
         <div>
             <header>
-                <HeaderLayout showMain={true} showBooks={true} showMovies={true} showArticles={false} />
+            <HeaderLayout showMain={true} showAbout={true} showFacts={true} showAlbums={true} />
             </header>
             <Banner name={"facts"} />
             <FactList />
